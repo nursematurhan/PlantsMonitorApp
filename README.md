@@ -45,7 +45,7 @@ A smart Flutter + Firebase + Arduino-based application to monitor real-time soil
 
 - **NodeMCU (ESP8266)** – Wi-Fi enabled microcontroller
 - **Soil Moisture Sensor (FC-28)** – Measures soil humidity
-- **DHT11 Sensor** – Reads temperature and humidity (optional)
+- **DHT11 Sensor** – Reads temperature and humidity 
 - **Breadboard + Jumper Wires**
 - **Power Source (e.g., USB or 5V supply)**
 
