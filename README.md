@@ -1,16 +1,48 @@
-# plant_monitor_app
+# 🌿 Plant Monitor App
 
-A new Flutter project.
+A smart Flutter + Firebase + Arduino-based application to monitor real-time soil moisture of indoor plants. Ideal for plant enthusiasts who want to ensure optimal watering conditions. Built using Flutter for UI, Firebase for data handling, and NodeMCU (ESP8266) for sensor connectivity.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 📱 Features
 
-A few resources to get you started if this is your first Flutter project:
+- 🔍 **Plant Selection** – Choose from a curated list of indoor flowering plants.
+- 📡 **Real-time Monitoring** – Get live soil moisture values from Firebase Realtime Database.
+- ⚠️ **Moisture Alerts** – Visual alerts when moisture is out of safe range.
+- 🔎 **Search Bar** – Quickly find a plant by its name.
+- 🖼️ **Image Support** – Plants with image and moisture data from Firestore.
+  
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/ec73bff3-eb83-4225-8427-247391a0afe2" alt="Monitor Page" width="45%" />
+  &nbsp;&nbsp;
+  <img src="https://github.com/user-attachments/assets/673fc820-9931-40ef-934a-8d9818c7e666" alt="Plant List Page" width="45%" />
+</p>
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 🧰 Tech Stack
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### 📱 Mobile (Flutter)
+
+- Flutter
+- Dart
+- Firebase Core
+- Firebase Realtime Database
+- Firebase Firestore
+- Material UI 3
+
+### 🌐 Backend (Firebase)
+
+- Realtime Database – for sensor data
+- Firestore – for plant list and moisture range
+- Firebase Auth (optional for future)
+
+### 🤖 IoT (Arduino)
+
+- **NodeMCU (ESP8266)** – Wi-Fi enabled microcontroller
+- **Soil Moisture Sensor (FC-28)** – Measures soil humidity
+- **Breadboard + Jumper Wires**
+- **Power Source (e.g., USB or 5V supply)**
+
+---
+
+
+
