@@ -11,12 +11,14 @@ A smart Flutter + Firebase + Arduino-based application to monitor real-time soil
 - ⚠️ **Moisture Alerts** – Visual alerts when moisture is out of safe range.
 - 🔎 **Search Bar** – Quickly find a plant by its name.
 - 🖼️ **Image Support** – Plants with image and moisture data from Firestore.
-  
+
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/ec73bff3-eb83-4225-8427-247391a0afe2" alt="Monitor Page" width="15%" />
+  <img src="https://github.com/user-attachments/assets/ec73bff3-eb83-4225-8427-247391a0afe2" alt="Monitor Page" width="22%" />
   &nbsp;&nbsp;
-  <img src="https://github.com/user-attachments/assets/673fc820-9931-40ef-934a-8d9818c7e666" alt="Plant List Page" width="15%" />
+  <img src="https://github.com/user-attachments/assets/673fc820-9931-40ef-934a-8d9818c7e666" alt="Plant List Page" width="22%" />
 </p>
+
+---
 
 ## 🧰 Tech Stack
 
@@ -39,10 +41,16 @@ A smart Flutter + Firebase + Arduino-based application to monitor real-time soil
 
 - **NodeMCU (ESP8266)** – Wi-Fi enabled microcontroller
 - **Soil Moisture Sensor (FC-28)** – Measures soil humidity
+- **DHT11 Sensor** – Reads temperature and humidity (optional)
 - **Breadboard + Jumper Wires**
 - **Power Source (e.g., USB or 5V supply)**
 
 ---
 
+### 🔌 Arduino Sensor Firmware
 
+See the full source code used to read temperature, humidity, and soil moisture and push to Firebase:
 
+👉 [`arduino/plant_monitor.ino`](./arduino/plant_monitor.ino)
+
+---
