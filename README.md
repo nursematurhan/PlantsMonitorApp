@@ -13,9 +13,9 @@ A smart Flutter + Firebase + Arduino-based application to monitor real-time soil
 - 🖼️ **Image Support** – Plants with image and moisture data from Firestore.
   
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/ec73bff3-eb83-4225-8427-247391a0afe2" alt="Monitor Page" width="45%" />
+  <img src="https://github.com/user-attachments/assets/ec73bff3-eb83-4225-8427-247391a0afe2" alt="Monitor Page" width="15%" />
   &nbsp;&nbsp;
-  <img src="https://github.com/user-attachments/assets/673fc820-9931-40ef-934a-8d9818c7e666" alt="Plant List Page" width="45%" />
+  <img src="https://github.com/user-attachments/assets/673fc820-9931-40ef-934a-8d9818c7e666" alt="Plant List Page" width="15%" />
 </p>
 
 ## 🧰 Tech Stack
