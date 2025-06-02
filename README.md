@@ -32,14 +32,10 @@ A smart Flutter + Firebase + Arduino-based application to monitor real-time soil
 - Dart
 - Firebase Core
 - Firebase Realtime Database
-- Firebase Firestore
 - Material UI 3
 
 ### 🌐 Backend (Firebase)
-
-- Realtime Database – for sensor data
-- Firestore – for plant list and moisture range
-- Firebase Auth (optional for future)
+-Realtime Database – for both sensor data and plant list
 
 ### 🤖 IoT (Arduino)
 
