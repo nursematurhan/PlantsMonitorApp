@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
+import 'package:plant_monitor_app/screens/home_screen.dart';
 import 'screens/plant_selection_page.dart';
 
 void main() async {
@@ -20,7 +21,7 @@ class PlantMonitorApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.green),
         useMaterial3: true,
       ),
-      home: PlantSelectionPage(),
+      home: HomeScreen(),
     );
   }
 }
